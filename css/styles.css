@@ -193,6 +193,8 @@ margin-bottom: 8px;
 .team-item {
     background-color: var(--white);
     letter-spacing: 0.02em;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .colleague-list {
@@ -313,6 +315,7 @@ margin-bottom: 8px;
 .portfolio-btn:focus {
     color: var(--white);
     background: var(--portfolio-btn);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .container {
@@ -408,8 +411,6 @@ margin: auto;
 .team-description {
     padding-top: 32px;
     padding-bottom: 32px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
     text-align: center;
 }
 
@@ -474,3 +475,10 @@ margin: auto;
     padding-bottom: 32px;
     padding-left: 16px;
     }
+
+
+.portfolio-link:hover,
+.portfolio-link:focus    {
+    display: inline-block;
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+        }
