@@ -359,7 +359,18 @@ margin: auto;
 }
 
 .inf-item {
-    width: 264px;
+    max-width: 264px;
+}
+
+.inf-block-cons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .inf-list {
@@ -372,6 +383,10 @@ margin: auto;
     gap: 24px;
     flex-basis: calc((100%-72px) / 4);
 }
+
+.icons-inf {
+}
+
 
 .work {
     padding-top: 0;
