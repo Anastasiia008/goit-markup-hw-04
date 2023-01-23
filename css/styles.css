@@ -9,7 +9,7 @@
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
     --gra-grey: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-
+    --border-cust: #8E8F99
 }
 
 body {
@@ -346,10 +346,41 @@ margin: auto;
     text-align: center;
 }
 
-.customers {
-        padding-top: 120px;
-        padding-bottom: 120px;
-        }
+
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.customers-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border-cust);
+    border-radius: 4px;
+}
+
+.icons-cust {
+    fill: var(--border-cust);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border-color: var(--portfolio-btn);
+}
+
+.customers-link:hover .icons-cust,
+.customers-link:focus .icons-cust{
+    fill: var(--portfolio-btn);
+}
 
 .list-bth {
     display: flex;
