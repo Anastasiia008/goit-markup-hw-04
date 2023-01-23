@@ -123,6 +123,7 @@ text-align: center;
 padding-top: 188px;
 padding-bottom: 188px;
 background-image: var(--gra-grey), url(../images/hero-background.jpg);
+background-color: #2e2f42;
 }
 
 .hero-title {
@@ -237,11 +238,62 @@ margin-bottom: 8px;
     margin-top: 16px;
 }
 
+.footer-content {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-first {
+    margin-right: 120px;
+}
+
+.footer-second {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+
+}
 
 
 .dark-theme {
     color: var(--secondary-background-color);
     letter-spacing: 0.03em;
+}
+
+.sm-text {
+    color: var(--white);
+    letter-spacing: 0.02em;
+    max-width: 96px;
+    margin-top: 16px;
+}
+
+.sm-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.sm-item {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.sm-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.sm-icons {}
+
+.sm-link:hover,
+.sm-link:focus {
+    background-color: #31D0AA;
 }
 
 .portfolio-btn {
